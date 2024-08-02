@@ -2,7 +2,7 @@ export interface Eurojackpot {
   date: string;
   jackpot: string;
   numbers: string[];
-  additionalNumber: string[];
+  additionalNumbers: string[];
   odds: Odd[];
 }
 
