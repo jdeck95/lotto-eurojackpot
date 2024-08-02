@@ -8,6 +8,24 @@ A simple display of the latest eurojackpot draws
 npm install
 ```
 
+## Before starting development
+
+Before using App, you need to edit the following file to prevent CORS-Errors:
+
+### **hosts**
+
+You could find your hosts file here:
+
+Windows: C:\windows\system32\drivers\etc\hosts
+
+Ubuntu/Mac: /etc/hosts
+
+Add the following line:
+
+```
+127.0.0.1       eurojackpot-local.lottohelden.de
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh

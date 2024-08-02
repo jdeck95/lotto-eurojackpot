@@ -1,4 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useEurojackpotStore } from '@/stores/eurojackpot';
+import { onMounted } from 'vue';
+
+const eurojackpotStore = useEurojackpotStore();
+
+onMounted(async () => {
+  await eurojackpotStore.getDraws();
+});
+</script>
 
 <template>
   <div>
