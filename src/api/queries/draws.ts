@@ -4,6 +4,12 @@ export const drawsQuery = `
       draws {
         date
         jackpot
+        numbers
+        additionalNumbers
+        odds {
+          numberOfWinners
+          winningClass
+        }
       }
       success
     }
