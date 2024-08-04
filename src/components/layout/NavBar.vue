@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { routes } from '@/router/routes';
+</script>
 
 <template>
   <q-toolbar class="toolbar text-white justify-center">
@@ -12,11 +14,13 @@
       <div class="column justify-center title q-mr-lg">Wheel Of Wealth</div>
     </div>
     <router-link
+      v-for="route in routes"
+      :key="route.name"
       class="q-mr-md"
-      to="/"
-      >Start</router-link
+      :to="route.path"
     >
-    <router-link to="/eurojackpot">Eurojackpot</router-link>
+      {{ route.label }}
+    </router-link>
   </q-toolbar>
 </template>
 
