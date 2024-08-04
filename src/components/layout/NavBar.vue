@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <q-toolbar class="bg-white text-black">
+  <q-toolbar class="bg-white text-black justify-center">
     <div class="row no-wrap">
       <img
         src="@/assets/wow-logo.png"
@@ -12,15 +12,11 @@
       <div class="text-h4 column justify-center title q-mr-lg">Wheel Of Wealth</div>
     </div>
     <router-link
-      class="q-mx-sm"
+      class="q-mr-md"
       to="/"
       >Start</router-link
     >
-    <router-link
-      class="q-mx-sm"
-      to="/eurojackpot"
-      >Eurojackpot</router-link
-    >
+    <router-link to="/eurojackpot">Eurojackpot</router-link>
   </q-toolbar>
 </template>
 
@@ -36,11 +32,16 @@ a {
   font-size: 20px;
   color: black;
   padding: 12px;
+  border-radius: 3px;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .router-link-active {
   background-color: #e57a98;
-  border-radius: 3px;
   padding: 12px;
+  text-decoration: underline;
 }
 </style>

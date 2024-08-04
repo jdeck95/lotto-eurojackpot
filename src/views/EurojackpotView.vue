@@ -31,33 +31,38 @@ const activeDraw = computed(() => {
 </script>
 
 <template>
-  <div class="col-10 justify-center">
-    <h3>Eurojackpot Gewinnzahlen</h3>
-    <q-spinner v-if="isLoadingDraws" />
-    <div v-else>
-      <p>Übersicht der Ergebnisse der letzten Ziehungen. Sie können aus den letzten Ziehungen auswählen:</p>
-      <div class="row">
-        <q-select
-          v-model="activeDate"
-          :options="eurojackpotStore.drawDates"
-          label="Datum der Ziehung"
-          class="col-12 col-sm-3"
-        />
-      </div>
+  <div class="row justify-center">
+    <div class="column">
+      <h3 class="q-px-md">Eurojackpot Gewinnzahlen</h3>
+      <q-spinner v-if="isLoadingDraws" />
+      <div v-else>
+        <p class="q-px-md">
+          Übersicht der Ergebnisse der letzten Ziehungen. Sie können aus den letzten Ziehungen auswählen:
+        </p>
+        <div class="row">
+          <q-select
+            v-model="activeDate"
+            :options="eurojackpotStore.drawDates"
+            label="Datum der Ziehung"
+            class="col-12 col-sm-4 q-px-md"
+            filled
+          />
+        </div>
 
-      <div class="row q-mt-md">
-        <DrawResults
-          v-if="activeDraw"
-          :numbers="activeDraw.numbers"
-          :additional-numbers="activeDraw.additionalNumbers"
-        />
-      </div>
+        <div class="row justify-center q-mt-md">
+          <DrawResults
+            v-if="activeDraw"
+            :numbers="activeDraw.numbers"
+            :additional-numbers="activeDraw.additionalNumbers"
+          />
+        </div>
 
-      <div class="row q-mt-md">
-        <DrawOdds
-          v-if="activeDraw?.odds"
-          :odds="activeDraw.odds"
-        />
+        <div class="row justify-center q-mt-md">
+          <DrawOdds
+            v-if="activeDraw?.odds"
+            :odds="activeDraw.odds"
+          />
+        </div>
       </div>
     </div>
   </div>

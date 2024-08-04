@@ -11,7 +11,7 @@ const props = defineProps<Props>();
   <div
     v-for="number in props.numbers"
     :key="number"
-    class="draw-number"
+    class="draw-number q-mx-xs"
   >
     {{ number }}
   </div>
@@ -19,7 +19,7 @@ const props = defineProps<Props>();
   <div
     v-for="additionalNumber in props.additionalNumbers"
     :key="additionalNumber"
-    class="draw-number draw-number--additional"
+    class="draw-number draw-number--additional q-mx-xs"
   >
     {{ additionalNumber }}
   </div>
@@ -38,6 +38,14 @@ const props = defineProps<Props>();
   &--additional {
     background-color: #ffd535;
     border: 0px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-xs) {
+  .draw-number {
+    line-height: 0px;
+    padding: 16px 0px 16px 0px;
+    width: 34px;
   }
 }
 </style>
