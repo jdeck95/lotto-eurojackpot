@@ -13,8 +13,8 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div>
-    <h1>Eurojackpot</h1>
+  <div class="col-10 justify-center">
+    <h3>Eurojackpot Gewinnzahlen</h3>
     <q-tabs v-model="activeDate">
       <q-tab
         v-for="draw in eurojackpotStore.draws"
