@@ -5,7 +5,7 @@ import NavBar from '@/components/layout/NavBar.vue';
 <template>
   <div>
     <q-layout view="lhr lpR lfr">
-      <q-header>
+      <q-header class="header">
         <NavBar />
       </q-header>
       <q-page-container class="row justify-center">
@@ -18,7 +18,6 @@ import NavBar from '@/components/layout/NavBar.vue';
 
 <style scoped lang="scss">
 .footer {
-  background-color: #fcbdc0;
-  color: black;
+  background-color: #333a65;
 }
 </style>

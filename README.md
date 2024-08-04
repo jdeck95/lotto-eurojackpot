@@ -49,3 +49,7 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+## Adding new games
+
+New games can be added in `src/configs/games.ts`
