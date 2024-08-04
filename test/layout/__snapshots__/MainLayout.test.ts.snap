@@ -14,7 +14,7 @@ exports[`MainLayout > should render correctly 1`] = `
     <div data-v-fedce037="" class="q-page-container row justify-center" style="padding-top: 50px; padding-bottom: 50px;">
       <!---->
     </div>
-    <footer data-v-fedce037="" class="q-footer q-layout__section--marginal absolute-bottom footer q-pa-sm"><object class="q--avoid-card-border" style="display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;" tabindex="-1" type="text/html" data="about:blank" aria-hidden="true"></object>Images and texts were created with AI</footer>
+    <footer data-v-fedce037="" class="q-footer q-layout__section--marginal absolute-bottom row footer q-pa-sm q-pl-lg"><object class="q--avoid-card-border" style="display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;" tabindex="-1" type="text/html" data="about:blank" aria-hidden="true"></object><a data-v-fedce037="" href="https://responsibleaidisclosure.com/"><img data-v-fedce037="" src="/src/assets/AI.png" alt="RAID" height="20px" class="q-mr-md"></a> Images and texts were created with AI </footer>
   </div>
 </div>"
 `;

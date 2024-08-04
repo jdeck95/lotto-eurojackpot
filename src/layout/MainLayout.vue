@@ -11,7 +11,17 @@ import NavBar from '@/components/layout/NavBar.vue';
       <q-page-container class="row justify-center">
         <router-view />
       </q-page-container>
-      <q-footer class="footer q-pa-sm">Images and texts were created with AI</q-footer>
+      <q-footer class="row footer q-pa-sm q-pl-lg">
+        <a href="https://responsibleaidisclosure.com/">
+          <img
+            src="@/assets/AI.png"
+            alt="RAID"
+            height="20px"
+            class="q-mr-md"
+          />
+        </a>
+        Images and texts were created with AI
+      </q-footer>
     </q-layout>
   </div>
 </template>
