@@ -9,9 +9,9 @@ export const drawsQuery = `
         odds {
           numberOfWinners
           winningClass
+          odd
         }
       }
-      success
     }
   }
 `;

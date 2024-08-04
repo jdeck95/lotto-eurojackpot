@@ -6,9 +6,10 @@ export interface Eurojackpot {
   odds: Odd[];
 }
 
-interface Odd {
+export interface Odd {
   numberOfWinners: string;
   winningClass: number;
+  odd: string;
 }
 
 export interface EurojackpotState {
