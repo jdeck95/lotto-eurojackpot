@@ -31,7 +31,7 @@ const activeDraw = computed(() => {
 </script>
 
 <template>
-  <div class="row justify-center">
+  <div class="row justify-center q-mb-xl">
     <div class="column">
       <h3 class="q-px-md">Eurojackpot Gewinnzahlen</h3>
       <q-spinner v-if="isLoadingDraws" />
