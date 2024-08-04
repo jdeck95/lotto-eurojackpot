@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MainLayout > should render correctly 1`] = `
+"<div data-v-fedce037="">
+  <div data-v-fedce037="" class="q-layout q-layout--standard" style="min-height: 768px;" tabindex="-1">
+    <!----><object class="q--avoid-card-border" style="display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;" tabindex="-1" type="text/html" data="about:blank" aria-hidden="true"></object>
+    <header data-v-fedce037="" class="q-header q-layout__section--marginal absolute-top header">
+      <div data-v-d34746f4="" data-v-fedce037="" class="q-toolbar row no-wrap items-center toolbar text-white justify-center" role="toolbar">
+        <div data-v-d34746f4="" class="row no-wrap"><img data-v-d34746f4="" src="/src/assets/wow-logo.png" alt="Wheel Of Wealth Logo" width="140px" hight="100px">
+          <div data-v-d34746f4="" class="column justify-center title q-mr-lg">Wheel Of Wealth</div>
+        </div><a data-v-d34746f4="" href="/" class="q-mr-md">Start</a><a data-v-d34746f4="" href="/eurojackpot" class="q-mr-md">Eurojackpot</a>
+      </div><object class="q--avoid-card-border" style="display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;" tabindex="-1" type="text/html" data="about:blank" aria-hidden="true"></object>
+    </header>
+    <div data-v-fedce037="" class="q-page-container row justify-center" style="padding-top: 50px; padding-bottom: 50px;">
+      <!---->
+    </div>
+    <footer data-v-fedce037="" class="q-footer q-layout__section--marginal absolute-bottom footer q-pa-sm"><object class="q--avoid-card-border" style="display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;" tabindex="-1" type="text/html" data="about:blank" aria-hidden="true"></object>Images and texts were created with AI</footer>
+  </div>
+</div>"
+`;

@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DrawResults > should render correctly 1`] = `
+"<div data-v-c506f757="" class="draw-number q-mx-xs">1</div>
+<div data-v-c506f757="" class="draw-number q-mx-xs">2</div>
+<div data-v-c506f757="" class="draw-number q-mx-xs">3</div>
+<div data-v-c506f757="" class="draw-number q-mx-xs">4</div>
+<div data-v-c506f757="" class="draw-number q-mx-xs">5</div>
+<div data-v-c506f757="" class="draw-number q-mx-xs">6</div>
+<div data-v-c506f757="" class="column justify-center q-mx-md">+</div>
+<div data-v-c506f757="" class="draw-number draw-number--additional q-mx-xs">1</div>
+<div data-v-c506f757="" class="draw-number draw-number--additional q-mx-xs">2</div>"
+`;

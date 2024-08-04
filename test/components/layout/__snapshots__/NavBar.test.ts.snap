@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NavBar > should render correctly 1`] = `
+"<div data-v-d34746f4="" class="q-toolbar row no-wrap items-center toolbar text-white justify-center" role="toolbar">
+  <div data-v-d34746f4="" class="row no-wrap"><img data-v-d34746f4="" src="/src/assets/wow-logo.png" alt="Wheel Of Wealth Logo" width="140px" hight="100px">
+    <div data-v-d34746f4="" class="column justify-center title q-mr-lg">Wheel Of Wealth</div>
+  </div><a data-v-d34746f4="" href="/" class="q-mr-md">Start</a><a data-v-d34746f4="" href="/eurojackpot" class="q-mr-md">Eurojackpot</a>
+</div>"
+`;

@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GameCard > should render correctly 1`] = `
+"<div class="column eurojackpot text-h3 col-5 q-px-xl rounded-borders">
+  <div class="q-mt-xl">Game Title</div><button class="q-btn q-btn-item non-selectable no-outline q-btn--outline q-btn--rectangle text-white q-btn--actionable q-focusable q-hoverable q-my-xl" tabindex="0" type="button"><span class="q-focus-helper"></span><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span class="block">button</span></span></button>
+</div>"
+`;

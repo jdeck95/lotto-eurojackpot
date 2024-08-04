@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DrawOdds > should render correctly 1`] = `
+"<div class="q-table__container q-table--horizontal-separator column no-wrap q-table__card q-table--flat q-table--no-wrap">
+  <!---->
+  <div class="q-table__middle scroll">
+    <table class="q-table">
+      <thead>
+        <tr>
+          <th class="text-right">Gewinnklasse</th>
+          <th class="text-right">Anzahl Gewinner</th>
+          <th class="text-right">Gewinnsumme</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="">
+          <td class="text-right">1</td>
+          <td class="text-right">12</td>
+          <td class="text-right">123456</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!---->
+</div>"
+`;
